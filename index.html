@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <link rel="icon" href="./resourses/blob.png" type="image/png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>    
+    <div class="counter">
+        <p data-find="counterValue" class="counter__value"></p>
+        <button id="addOnePoolButton" data-pools = "1" class="counter__addButton">+1 Бассейн</button>
+        <button id="addTwoPoolsButton" data-pools = "2" class="counter__addButton">+2 Бассейна</button>
+        <button id="resetButton" class="counter__resetButton">Сбросить</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
